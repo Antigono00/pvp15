@@ -3258,7 +3258,7 @@ const BattleGame = ({ onClose }) => {
   const isDesktop = window.innerWidth >= 769;
   
   return (
-    <div className="battle-game-overlay">
+    <div className="battle-game-overlay" style={{ zIndex: 10000 }}>
       <div className="battle-game" data-difficulty={difficulty}>
         {gameState === 'setup' && (
           <DifficultySelector 
