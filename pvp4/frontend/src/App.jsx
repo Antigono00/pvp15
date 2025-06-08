@@ -148,7 +148,7 @@ function App() {
         }
         
         .battle-game {
-          z-index: 1000 !important;
+          z-index: 10005 !important;
           position: relative;
           overflow: visible !important;
         }
